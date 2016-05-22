@@ -1,0 +1,140 @@
+body{
+  background-color: #EDF1F5;
+}
+.verh{
+  background-color: white;
+  margin:-8px;
+  height: 40px;
+  padding-right: 100px;
+}
+.verh ul{
+  display: inline-block;
+  margin-top: 5px;
+}
+.verh ul li{
+  font-size: 12px;
+  display: inline-block;
+  margin-right:10px;
+
+}
+.left{
+  margin-left: 80px;
+}
+.right{
+  margin-left: 200px;
+}
+.chat{
+  border: 1px solid #45688E;
+  position: relative;
+  margin-top: 20px;
+  background-color: white;
+  width: 820px;
+  height: 550px;
+  float: left;
+  margin-left: 100px;
+  border-radius: 10px;
+  border-top-right-radius: 0px; 
+}
+
+.dialogs{
+  height: 100%;
+  float: left;
+  width: 320px;
+  border-right: 1px solid grey;
+}
+.in{
+  margin: 3px;
+  width: 300px;
+  height: 25px;
+  border: 1px solid #C3CBD4;
+  border-top-left-radius: 10px;
+}
+.search{
+  margin: 3px;
+  margin-top: 6px;
+  float: left;
+  height: 12px;
+  width: 12px;
+}
+.in input{
+  font-size:12px;
+  width: 250px;
+  margin: 3px;
+  border: none;
+}
+.clear{
+  float: right;
+  margin: 3px;
+  margin-top: 6px;
+  height: 12px;
+  width: 12px;
+}
+.mess{
+  float: right;
+  height: 470px;
+  width: 498px;
+}
+.img1{
+  margin-right: 390px;
+}
+.img2{
+  float: right;
+}
+.mess p1{
+  width: 380px;
+ font-size: 14px;
+ float: left;
+ margin-left: 50px;
+}
+.mess p2{
+  margin-right: 65px;
+  font-size: 14px;
+  float: right;
+}
+.send{
+  width: 380px;
+  height: 70px;
+  position: fixed;
+  margin-left: 370px;
+  margin-top: 480px;
+}
+.otp{
+  font-size: 12px;
+  width: 370px;
+  height: 35px;
+}
+.se{
+  margin-top: 2px;
+  background-color:#368BC1;
+  color:#FDFAFD;
+  border-radius:3px;
+  border-color:#368BC1;
+  margin-left: 282px;
+  border-style:solid;
+}
+.drug{
+  width: 300px;
+  height: 60px;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+.drug img{
+  float: left;
+}
+.drug h1{
+  text-decoration:none;
+  color: #2B587A;
+  float: left;
+  font-size: 15px;
+  margin-top: -1px;
+}
+.drug p2{
+  text-decoration:none;
+  font-size: 13px;
+  float: left;
+  margin-top: -1px;
+}
+.drug:hover{
+  background-color: #EDF1F5;
+  border: 1px solid #368BC1;
+}

@@ -1,0 +1,107 @@
+  body{
+        height: 100%;
+        background-image: url(images/images.jpeg);
+        background-image: url(images/wolf.jpg);
+        background-size: 1305px 700px;
+        background-repeat: repeat-x;;
+        }
+.regist{
+  width: 247px;
+  background-color: white;
+  margin-left: 800px;
+  margin-bottom:  20px;
+  margin-top: 100px;
+  padding-top: 11px;
+  padding-left: 11px;
+  padding-bottom: 11px;
+  border-radius: 5px
+}
+.sign{
+  width: 150px
+}
+.signup{
+  width:247px;
+  background-color: white;
+  margin-left: 800px;
+  padding-top: 11px;
+  padding-left: 11px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+.slova{
+  width:400px;
+  height: auto;
+  margin-top: -300px;
+  margin-left: 250px;
+}
+.sign{
+  margin-left: 86px;
+  background-color: #F29E0E;
+  border-radius: 5px;
+  border-color: #FC9F00;
+  border-style: solid;
+}
+.verh{
+  background-color: white;
+  margin:-10px;
+}
+.verh ul{
+  display: inline-block;
+}
+.verh ul li{
+  font-size: 13px;
+  display: inline-block;
+  margin-right:30px;
+}
+.left{
+  margin-left: 80px;
+}
+.left a{
+  text-decoration: none;
+  color: #368BC1;
+}
+.right{
+  margin-left: 750px;
+}
+.mess{
+  color: red;
+  margin-left: 800px;
+  width:247px;
+}
+.das{
+  margin-left: 800px;
+  width:247px;
+  color: red;
+}
+#sidebar{
+  display: none;
+}
+.right li:hover ~ #sidebar {
+  position: fixed;
+  display : block;
+  width:200px;
+  height: 100px;
+  background-color: white;
+  margin-left: -10px;
+  border-radius: 5px;
+  border: 1px #D0D5D1 solid;
+}
+  #sidebar:hover {
+    margin-left: -10px;
+    position: fixed;
+    display : block;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px #D0D5D1 solid;
+   }
+  .lang a{
+    font-size: 13px;
+    text-align: right;
+    margin: 10px;
+    text-decoration: none;
+    color: #368BC1;
+    font-size:
+
+  }

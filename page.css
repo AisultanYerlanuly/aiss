@@ -1,0 +1,128 @@
+body{
+  background-image: url('back2.jpg');
+}
+.verh{
+  background-color: white;
+  margin:-8px;
+  height: 40px;
+  padding-right: 100px;
+}
+.verh ul{
+  display: inline-block;
+  margin-top: 5px;
+}
+.verh ul li{
+  font-size: 12px;
+  display: inline-block;
+  margin-right:10px;
+
+}
+.left{
+  margin-left: 80px;
+}
+.right{
+  margin-left: 200px;
+}
+.bord{
+  width:180px;
+  height:25px;
+  border-radius:15px;
+  border-width: 1px;
+  border-style: solid;
+  margin-left: 70px;
+  border-color: #D0D5D1;
+}
+.qwe{
+  width: 270px;
+  height: 180px;
+  margin-top: 15px;
+  margin-left: 100px;
+  background-color: #FDFAFD;
+  border-radius: 5px;
+  border-color: #D0D5D1;
+  border-width: 1px;
+  border-style: solid;
+}
+.qwe ul p{
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 11px;
+}
+.qwe h1{
+  font-size: 15px;
+}
+.top{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height:90px;
+  background-color: #368BC1;
+}
+.ava{
+  width: 60px;
+  height: 60px;
+  margin-top: -120px;
+  margin-left: 5px;
+  background-image: url(olaf.jpg);
+  background-size: cover;
+  border-color: #D0D5D1;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+}
+.yaico{
+  margin-bottom: 40px;
+  margin-left: 15px;
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D0D5D1;
+
+
+}
+.posts{
+  margin-top: -181px;
+  margin-left: 380px;
+  background-color: #ECE6EC;
+  width: 500px;
+  height: 200px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D0D5D1;
+
+}
+.post{
+}
+.input{
+  margin-top: 10px;
+  margin-left: 1px;
+  width: 415px;
+  height: 70px;
+}
+.tweet{
+  margin-left: 380px;
+  margin-top: 3px;
+  width: 100px;
+  height: 35px;
+  background-color: #368BC1;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #368BC1;
+  color: white;
+}
+.posts2{
+  width: 500px;
+  height: auto;
+  background-color: #ECE6EC;
+  margin-left: 380px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px #D0D5D1 solid;
+}
+.asd{
+  font-style: italic;
+  font-size: 12px;
+}

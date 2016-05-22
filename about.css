@@ -1,0 +1,147 @@
+body{
+        height: 100%;
+        background-color: #2c5d63;
+        background-size: 1305px 700px;
+        }
+#sidebar{
+  display: none;
+}
+.right li:hover ~ #sidebar {
+  position: fixed;
+  display : block;
+  width:200px;
+  height: 100px;
+  background-color: white;
+  margin-left: -10px;
+  border-radius: 5px;
+  border: 1px #D0D5D1 solid;
+}
+  #sidebar:hover {
+    margin-left: -10px;
+    position: fixed;
+    display : block;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px #D0D5D1 solid;
+   }
+  .lang a{
+    font-size: 13px;
+    text-align: right;
+    margin: 10px;
+    text-decoration: none;
+    color: #368BC1;
+    font-size:
+  }
+  .verh{
+    background-color: white;
+    margin:-10px;
+  }
+  .verh ul{
+    display: inline-block;
+  }
+  .verh ul li{
+    font-size: 13px;
+    display: inline-block;
+    margin-right:30px;
+  }
+  .left{
+    margin-left: 80px;
+  }
+  .left a{
+    text-decoration: none;
+    color: #368BC1;
+  }
+  .right{
+    margin-left: 750px;
+  }
+  .about{
+    margin-top: 20px;
+    background-color: #a9c52f;
+    border: 2px #E9EDF1 solid;
+    width: 600px;
+    float: left;
+  }
+  .about h1{
+    margin-top: -1px;
+    font-size: 19px;
+    background-color: #E9EDF1;
+  }
+.about p{
+  margin: 10px;
+}
+.what{
+  margin-top: 5px;
+  float: right;
+  background-color: #a9c52f;
+  border: 2px #E9EDF1 solid;
+  width: 600px;
+}
+.what h1{
+  margin-top: -1px;
+  font-size: 19px;
+  background-color: #E9EDF1;
+}
+.what p{
+  margin: 10px
+}
+.carouselbox {
+  font-size: 14px;
+  width: 500px;
+  height: 300px;
+  margin-top: -12px;
+  position: relative;
+  box-shadow: 2px 2px 10px #ccc;
+  overflow: hidden;
+}
+.content {
+  margin: 0;
+  padding: 0;
+}
+.content li {
+  font-size: 50px;
+  width: 50px;
+  list-style: none;
+  text-align: center;
+  z-index: 2;
+}
+.carouselbox   li {
+  position: absolute;
+  opacity: 0;
+  transform: scale(0);
+  transition: 1s;
+}
+.carouselbox li.current {
+  opacity: 1;
+  transform: scale(1);
+  transition: 1s;
+}
+.li img {
+  width: 217px;
+  height: 502px;
+  display: block;
+}
+.next {
+  background-color: #ff9900;
+  color: #FFF;
+  border-radius: 5px;
+  border-color: #555555;
+}
+.prev {
+ background-color: #ff9900;
+ color: #FFF;
+ border-radius: 5px;
+ border-color: #555555;
+}
+.logo{
+  width: 502px;
+  margin-left: 350px;
+  margin-top: 150px;
+  border: 2px #E9EDF1 solid;
+}
+.logo h1{
+  margin-top: -1px;
+  font-size: 19px;
+  background-color: #E9EDF1;
+}
